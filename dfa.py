@@ -13,11 +13,11 @@ class DFA(Automaton):
     def validate(self):
         return super().validate()
 
-    def read_input(self, input_str):
-        pass
-
     def accepts_input(self, input_str):
         return "I don't know what inputs to accept... yet!"
+
+    def read_input(self, input_str):
+        pass
 
 
 if __name__ == "__main__":
@@ -31,6 +31,4 @@ if __name__ == "__main__":
         print()
 
     dfa = DFA('your_config_file')    
-    print(dfa.validate())
-    if dfa.validate():
-        print(dfa.accepts_input('yout input'))
+    print(dfa.accepts_input('yout input'))
