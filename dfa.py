@@ -31,4 +31,4 @@ if __name__ == "__main__":
         print()
 
     dfa = DFA('your_config_file')    
-    print(dfa.accepts_input('yout input'))
+    print(dfa.accepts_input('your input'))
